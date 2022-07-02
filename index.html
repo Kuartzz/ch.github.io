@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Silicon</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
+            <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
+            <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="min-h-100vh flex justify-start items-center">
+        <div class="mx-5 md-mx-l5">
+            <div class="inline-block br-round bg-indigo-30 indigo-lightest p-2 fs-s2 mb-5">
+                <div class="inline-block bg-indigo indigo-lightest br-round px-3 py-1 mr-3 fs-s3">Comunidad</div>
+                3000+ miembros
+            </div>
+            <div>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Chill Silicon</h1>
+
+                <div class="br-8 mt-10 inline-flex">
+                    <button onclick="window.location.href=`https://discord.gg/rS8ynAfUsx`"
+                        class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Unirse</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i data-feather="airplay" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Servidor</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Somos una comunidad de discord destinada a la socialización directa entre miembros con la esperanza de conocer usuarios nuevos, asi forjando nuevas relaciones y amistades</div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i data-feather="cpu" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Función</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">El servidor es totalmente seguro, cuenta con un staff que está la mayor parte del dia activo.</div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i data-feather="database" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Inicios</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Somos un servidor publico creado el 27 de Marzo de 2021</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- big text -->
+    <section class="p-10 md-py-10">
+        <div class="w-100pc md-w-70pc mx-auto py-10">
+            <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
+                Intentamos y logramos construir una comunidad <span class="border-b bc-indigo bw-4"> mejor</span> para todos </h2>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="p-10 md-p-l5">
+        <div id="slider-2">
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative">
+                    <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">"En mi opinión, este es un servidor muy completo, en casi todos los aspectos. Su staff actual es activo y evita la mayor toxicidad posible. Hay mucha gente con la que se puede dialogar y crear vínculos de manera muy cómoda y para nada forzada. El dueño del servidor le veo que pone mucha dedicación al servidor para hacerlo el mejor de todos, (Y eso se refleja en casi todo). En conclusión, es un servidor muy completo, cómodo, y bueno para socializar y pasar un rato o una tarde muy cómodo para conocer gente nueva y amistosa".</p>
+                    <div class="flex items-center my-5">
+                        <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
+                                src="https://cdn.discordapp.com/avatars/519290797955481630/5d293e0feee406857cf53a0772435aed.png" alt=""></div>
+                        <div class="ml-4 fs-s1">
+                            <div class="indigo-lightest">𝓯𝓪𝓵𝓵𝓮𝓭 𝓻𝓸𝓼𝓮  🖤#9247</div>
+                            <div class="indigo-lightest opacity-20">Usuario</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3">
+                <div class="p-8 br-8 bg-indigo-lightest-10 relative">
+                    <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">Este servidor te da muchísimas opciones, salta a la vista que el creador dedica mucho tiempo a mejorarlo teniendo en cuenta nuestras necesidades. Es un lugar donde es muy fácil conocer a gente y lo mejor es que todos tenemos nacionalidades, culturas y puntos de vista diferentes; por lo que hay mucha variedad de gustos y cualquiera se puede sentir bienvenido. Al final sin darte cuenta pasas mucho tiempo ahí hablando con cualquier persona sobre cualquier cosa, es una manera más de pasar tu tiempo. Además todos los Staff nos ocupamos de que sea un sitio seguro y nada tóxico donde estar. En conclusión, en este servidor todo el mundo es bienvenido y destaca en muchos aspectos pero sobre todo en que siempre se está trabajando en él. </p>
+                    <div class="flex items-center my-5">
+                        <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
+                                src="https://cdn.discordapp.com/avatars/729693654985474110/ba83715d57fe246efec99e8f6c42842a.png" alt=""></div>
+                        <div class="ml-4 fs-s1">
+                            <div class="indigo-lightest">Lady_laura224#6502</div>
+                            <div class="indigo-lightest opacity-20">Admin, Chill Silicon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- blog -->
+    <section class="p-0 md-p-5">
+        <div class="md-w-75pc p-10 ">
+            <h2 class="white fs-l3 fw-900 lh-1">Ultimas actualizaciones</h2>
+        </div>
+        <div class="flex flex-wrap">
+            <div class="w-100pc md-w-33pc p-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
+                    <img class="w-100pc" src="assets/images/yoann-siloine-dyaxQ-aoGWY-unsplash.jpg" alt="">
+                    <p class="fw-600 white fs-m3 mt-3">
+                        Chill Silicon
+                    </p>
+                    <div class="indigo fs-s3 italic after-arrow-right my-4">6 Julio 2022</div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc p-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
+                    <img class="w-100pc" src="assets/images/fabrice-villard-Jrl_UQcZqOc-unsplash.jpg" alt="">
+                    <p class="fw-600 white fs-m3 mt-3">
+                        Chill Love x Nirvana
+                    </p>
+                    <div class="indigo fs-s3 italic after-arrow-right my-4">27 Enero 2022</div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc p-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300">
+                    <img class="w-100pc" src="assets/images/florian-klauer-mk7D-4UCfmg-unsplash.jpg" alt="">
+                    <p class="fw-600 white fs-m3 mt-3">
+                        Chill Love x The Rush
+                    </p>
+                    <div class="indigo fs-s3 italic after-arrow-right my-4">2 Octubre 2021</div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="p-5 md-p-l5 bg-indigo-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <img src="assets/images/logo.png" class="w-l5" alt="">
+                <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
+                    <p>En Chill Love contamos con un maravilloso equipo que vela por la seguridad y el cumplimiento de normas del servidor. Puedes recurrir a ellos siempre que tengas dudas o veas que se esté incumpliendo alguna de las reglas, estarán encantados de ayudar siempre y se agradece que se les de un trato digno y adecuado.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
